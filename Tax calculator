@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TaxTM</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: lightgray;
+    }
+    .screen{
+      background-color: #430047;
+      width: 190px;
+      height: 380px;
+      margin-top: 7%;
+      margin-left: 50%;
+      margin-bottom: 10%;
+      position: absolute;
+      border-radius: 15px;
+    }
+    .logo{
+      margin: 20px;
+      margin-left: 50px;
+      color: #f0b8ff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .amount{
+      margin-left:11px ;
+      width: 85%;
+      height: 20px;
+      border-radius: 5px;
+    }
+    .tax{
+      margin-left:11px ;
+      width: 85%;
+      height: 20px;
+      border-radius: 5px;
+    }
+    .label1{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #f0b8ff ;
+      margin-left:11px ;
+    }
+    input[type=number]:focus {
+      color: purple;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .btn{
+      margin-top: 20px;
+      margin-left: 45px;
+      color: purple;
+      background-color:  #f0b8ff;
+      height: 25px;
+      width: 100px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+    .label2{
+      margin-top: 20px;
+      margin-left:11px ;
+      color:  #f0b8ff;
+      height: 25px;
+      width: 100px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+    .total{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 500;
+      margin-top: 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="screen">
+    <h2 class="logo">TaxTM</h2>
+    <h6 class
